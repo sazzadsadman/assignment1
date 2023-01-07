@@ -84,4 +84,31 @@ li{
     font-weight: 700;
     padding-top: 10px ;
 }
-
+/* section three styles */
+.section-three{
+    background: url(images/watch.png) ;
+    margin: 50px 300px;
+    text-align: left;
+    border-radius: 5px;
+}
+.gradiant{
+    border-radius: 5px;
+    padding: 50px 0px 50px 50px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+.section-three .section-title{
+    color: white;
+    padding-right: 500px;
+}
+.btn2 {
+    margin: 20px 0;
+    border-style: none;
+    padding: 10px 25px;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+    border-radius: 5px;
+    /* border-style: solid ; */
+    /* border-color: orangered; */
+}
