@@ -84,6 +84,40 @@ li{
     font-weight: 700;
     padding-top: 10px ;
 }
+/* Bonus Section Styles */
+.bonus-section-container{
+
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+    padding: 50px 150px 50px 150px
+}
+.bous-section-items {
+
+}
+.bonus-section {
+    background: rgba(255, 68, 0, 0.114);
+}
+.bonus-section h3 {
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.bonus-section p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.bonus-section .bous-section-items p{
+    text-align: left;
+}
+.bonus-section .bous-section-items h3 {
+    text-align: left;
+    
+}
+.bonus-section img {
+    padding-top: 50px;
+}
+
+
 /* section three styles */
 .section-three{
     background: url(images/watch.png) ;
@@ -110,6 +144,7 @@ li{
     color: orangered;
     border-radius: 5px;
 }
+
 /* Footer Styles */
 footer {
     height: 500px;
