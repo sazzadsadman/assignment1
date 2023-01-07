@@ -9,7 +9,7 @@
     height: 100vh;
     background: url(images/banner/banner1.png); */
     background-position: center;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .header-items{
@@ -30,4 +30,31 @@
     font-size: 20px;
     font-weight: 600;
     color: aliceblue;
+}
+/* Section one styles */
+.section-one-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+.img1 {
+    padding: 100px 0 0 200px;
+    height: 600px;  
+}
+.section-one-text{
+    padding: 250px 200px 0 0;
+}
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-description{
+    font-size: 18px;
+    padding: 20px 0;
+}
+ul {
+    list-style-image: url(images/icons/tick.png);
+}
+li{
+    padding: 10px 0;
 }
