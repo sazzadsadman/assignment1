@@ -58,3 +58,34 @@ ul {
 li{
     padding: 10px 0;
 }
+/* Section two styles */
+.section-two {
+    padding: 100px 0 50px 0; 
+
+}
+.section-two .section-title{
+    text-align: center;
+}
+.section-two-items {
+    padding: 30px 30px 0px 30px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-two-items p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.section-two-items h5 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px ;
+}
+/* .section-two-items img {
+    text-align: center;
+} */
+.img-div img{
+    text-align: center;
+}
